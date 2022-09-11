@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 
 //* Using the Module for asking and Printing Query to the Console
 rl.question("Enter Your Input? ", (answer) => {
-    //* Passing the given input into the Palindrome funcrion
+    //* Passing the given input into the Palindrome function
     const response = Palindrome(answer);
     if (response === answer) {
         // Code -> The Number is Palindrome
